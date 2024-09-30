@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendence Form</title>
+</head>
+<body>
+    <form>
+        <p><h1>Student Attendence Form</h1></p>
+        <p>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter Your First Name" autocomplete="on" required>
+        </p>
+        
+        <p>
+            <label for="rollno">Roll No:</label>
+            <input type="text" name="rollno" id="rollno" placeholder="Enter Your Roll No" autocomplete="on" required>
+        </p>
+        <p>
+            <label for="dept">Department:</label>
+            <select id="dept">
+                <option value="it">Information Technology</option>
+                <option value="cse">Computer Science Engineering</option>
+                <option value="aids">Artificial Intelligence and Data Sciene</option>
+                <option value="aiml">Artificial Intelligence and Machine Learning</option>
+                <option value="civil">Civil Engineering</option>
+                <option value="ece">Electrical and Communication Engineering</option>
+                <option value="eee">Electrical and Electronics Engineering</option>
+                <option value="mech">Mechanical Engineering</option>
+                <option value="act">Advanced Communication Technology</option>
+                <option value="cys">Cyber Security</option>
+                <option value="auto">Automobile Engineering</option>
+                <option value="vlsi">Very Large Scale Integration</option>
+            </select>
+        </p>
+        <p>
+            <label for="section">Section:</label>
+            <input type="radio" name="sec" id="aa" value="aa">
+            <label for="aa">A </label>
+            <input type="radio" name="sec" id="bb" value="bb">
+            <label for="bb">B</label>
+            <input type="radio" name="sec" id="cc" value="cc">
+            <label for="radio">C</label>
+        </p>
+        <p>
+            <label for="date">Date:</label>
+            <input type="datetime-local" name="date" id="date" placeholder="dd-mm-yyyy" autocomplete="on" required>
+        </p>
+        <p>
+            <input type="radio" name="app" id="present" value="present">
+            <label for="present">Present</label>
+            <input type="radio" name="app" id="absent" value="absent">
+            <label for="absent">Absent</label>
+            <input type="radio" name="app" id="permission" value="permission">
+            <label for="permission">Permission</label>
+        </p>
+        <p>
+            <input type="button" name="submit" id="submit" value="submit">
+        </p>
+    </form>
+</body>
+</html>
